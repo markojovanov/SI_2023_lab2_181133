@@ -29,11 +29,11 @@ P - Број на поврзани компоненти во CFG
 
 2 - Поминува низ ребрата во редослед 1-3-5-13-14-23, додека вредностите за влез функцијата би биле = User("test", "test", "test), Empty list
 
-3 - Поминува низ ребрата во редослед 1-3-5-6-7-8-9-10-11-12-13-15-16-22-23, додека вредностите за влез функцијата би биле = User(“test”, “test@test.com”, “new password”), List(User(“test”, “test@test.com”, “new password”),User(“test”, “test”, “test”))
+3 - Поминува низ ребрата во редослед 1-3-5-6-7-8-9-10-11-12-13-15-16-22-23, додека вредностите за влез функцијата би биле = User("test", "new password", "test@test.com"), List(User("test", "new password", "test@test.com"),User(“test”, “test”, “test”))
 
-4 - Поминува низ ребрата во редослед 1-3-4-5-6-7-9-11-12-13-15-16-17-18-20-21-22-23, додека вредностите за влез функцијата би биле = User(null, “test@test.com”, “newpassword”) , List(User(“test123”, “newtest@test.com”, “new password”),User(“test456”, “newtest123@test.com”, “1234567#2”))
+4 - Поминува низ ребрата во редослед 1-3-4-5-6-7-9-11-12-13-15-16-17-18-20-21-22-23, додека вредностите за влез функцијата би биле = User(null, "newpassword", "test@test.com"), List(User(“test123”, “new password”, “newtest@test.com”),User(“test456”, “1234567#2”, "newtest123@test.com”))
 
-5 - Поминува низ ребрата во редослед 1-3-4-5-6-7-9-11-12-13-15-16-17-18-19-23, додека вредностите за влез функцијата би биле = User(null, “test@test.com”, “n#ewpassword”) , List(User(“test123”, “newtest@test.com”, “new password”),User(“test456”, “newtest123@test.com”, “1234567#2”))
+5 - Поминува низ ребрата во редослед 1-3-4-5-6-7-9-11-12-13-15-16-17-18-19-23, додека вредностите за влез функцијата би биле = User(null, "n#ewpassword", "test@test.com"), List(User(“test123”, “new password”, “newtest@test.com”),User(“test456”, “1234567#2”, "newtest123@test.com”))
 
 # Multiple Condition - Сите тест случаи
 <img width="682" alt="image" src="https://github.com/markojovanov/SI_2023_lab2_181133/assets/86361216/9c805d75-5514-471e-8b95-3859c1a9ba58">
